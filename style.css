@@ -1,0 +1,290 @@
+body{
+  background-color: rgb(99, 81, 172);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ a{
+  color: rgb(31, 7, 128);
+  text-decoration: none;
+  padding: 30px; 
+  overflow: hidden;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+a:hover{
+  color: rgb(202, 15, 149);
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&display=swap');
+
+  .title{
+    background-image: url(IMG_20231022_204258.jpg); 
+   background-color: white;
+  background-repeat: no-repeat; 
+   background-size: cover; 
+   background-position: bottom; 
+   text-align: center; 
+   background-attachment: scroll;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: flex-end; 
+  box-sizing: border-box; 
+  display: block; 
+  }
+
+  p , h1{
+      background-position: center;
+      background-attachment: fixed;
+      background-size: 100%;
+font-size: xx-large;
+font-weight: bold;
+color: white; 
+text-align: center;
+flex-wrap: wrap; 
+justify-content: center;
+align-items: center;
+} 
+
+p{
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lobster', sans-serif; 
+}
+
+h1{
+   font-family: 'Libre Baskerville', serif;
+  font-family: 'Lobster', sans-serif;
+}
+
+input{
+   background-color: rgb(62, 62, 137); 
+  color: white;
+  border: rgb(62, 62, 137); 
+  /* padding: 15px; */
+  width: 150px;
+  height: 50px;
+  box-shadow: -1px 1px 1px 1px rgb(180, 136, 200); 
+  align-items: flex-start;
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.info{
+  color: black;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+/* .cont{
+
+  background-color: blueviolet;
+  max-height: 500px;
+  max-width: 300px; 
+  text-align: left;
+  font-style: italic;
+  font-weight: bolder;
+  margin-right: 100px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 0;    
+
+} */
+
+ .cont1{
+  background-color: blueviolet;;
+  max-height: 150px;
+  max-width: 350px;
+  text-align: left;
+  font-style: italic;
+  font-weight: bolder;
+  margin-right: 100px;
+  display: inline-block;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 0;
+  /* justify-content: space-evenly; 
+  align-content: space-between;  */
+} 
+
+ .cont2{
+  background-color: blueviolet;;
+  max-height: 150px;
+  max-width: 350px;
+  text-align: left;
+  font-style: italic;
+  font-weight: bolder;
+  margin-right: 90px;
+  display: inline-block;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 0;
+} 
+
+.cont3{
+  background-color: blueviolet;;
+  max-height: 150px;
+  max-width: 350px;
+  text-align: left;
+  font-style: italic;
+  font-weight: bolder;
+  margin-left: 40px;
+  display: inline-block;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 5px;
+  column-gap: 5px;
+  padding: 0; 
+} 
+
+h3{
+  color: rgb(228, 24, 72);
+  font-family: 'Libre Baskerville', serif;
+font-family: 'Lobster', sans-serif;
+}
+
+ /* .photo{
+  box-sizing: border-box; 
+  width: 700px;
+   height:250px;
+   margin-right: 100%; 
+  padding: 0;
+  overflow: hidden;
+} 
+span p{ 
+  background-color: rgb(99, 81, 172);
+  color: chocolate;
+  display: inline;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: right;
+  flex-wrap: nowrap;
+  text-transform: capitalize;
+} */
+
+/* .page{
+  background-color: rgb(99, 81, 172);
+  width: 2600px;
+  height: 800px;
+  display: inline-block;
+
+} */
+
+ .nav{
+  width: 100px;
+  height: 300px;
+  display: flex;
+} 
+
+#nav{
+  color: rgb(233, 111, 111);
+  text-align: center;
+  align-items: center;
+   min-width: 180px;
+   max-height: 80px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  display: flex; 
+   padding: 20px;
+ margin: -300px 400px; 
+} 
+
+ #nav{
+  font-size: xx-large;
+}
+
+ #cont{
+  text-align: center;
+  align-items: flex;
+   font-size: xx-small;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  display: flex; 
+   max-width: -50px;
+  margin-left: 100px; 
+}  
+
+.web{
+  background-color: rgb(99, 81, 172);
+  color: rgb(194, 12, 121);
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-style: oblique;
+  padding: 0;
+  text-align: center;  
+  display: inline-block; 
+  align-items: center;
+  margin: 630px;
+  margin-left: 50px; 
+}
+
+.get input {
+  background-color: rgb(199, 33, 155); 
+  color: white;
+  border: rgb(180, 54, 131);
+  display: inline-block;  
+   padding: 0; 
+   margin: 0px 600px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 5px 5px 5px 5px rgb(202, 64, 154); 
+  border-radius: 50px;
+  align-items: flex-start;  
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+} 
+
+.side{
+  background-image: url(photo_2023-10-21_21-48-14.jpg); 
+  background-color: white;  
+ background-repeat: no-repeat; 
+   background-size: cover; 
+  background-position: center;  
+  text-align: center; 
+  background-attachment: scroll;
+ margin: 500px -1px;
+ padding: 20px;
+ width: 100%;
+ height: 600px;
+ overflow: hidden; 
+ box-sizing: border-box; 
+ display:block; 
+ }
+
+ .foot{
+  background-color: rgb(162, 21, 73);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+font-size: xx-large;
+font-weight: bold;
+margin-top: -500px; 
+display: flex;
+ }
